@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-menu li {
+  margin-right: 1rem; /* add some space between menu items */
+}
+
+.navbar-cart {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.navbar-cart span {
+  background: #ff2b77;
+  color: white;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-cart img {
+  width: 28px; /* assuming the cart icon size is 28x28 */
+  height: 28px;
+}

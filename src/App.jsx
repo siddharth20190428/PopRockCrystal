@@ -17,8 +17,8 @@ function App() {
         <Products />
         <Highlight />
       </div>
-      <div className="highlight-bg">
-        <img src="./highlight-bg.jpeg" />
+      <div className="highlight-bg-cont">
+        <img src="./highlight-bg.jpeg" className="highlight-bg" />
         <img src="./highlight-curve.png" className="highlight-curve" />
       </div>
       <div className="footer"></div>
