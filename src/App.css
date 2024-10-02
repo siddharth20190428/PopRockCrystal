@@ -248,3 +248,34 @@
   border: none;
   cursor: pointer;
 }
+
+#circles-cont {
+  position: absolute;
+  right: 25%;
+}
+
+.circle {
+  box-shadow: 0px 4px 50px 0px #788f9c40;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle.shadow-circle {
+  width: 640px;
+  height: 320px;
+  opacity: 0.5;
+  border-radius: 0 0 320px 320px;
+  transform: translate(-50%, 0%);
+}
+
+.circle.outer-circle {
+  width: 480px;
+  height: 480px;
+}
+.circle.inner-circle {
+  width: 320px;
+  height: 320px;
+}

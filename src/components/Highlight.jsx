@@ -20,57 +20,11 @@ const Highlight = () => {
 
         <button>Buy Now</button>
       </aside>
-      <aside style={{ position: "absolute", right: "25%" }}>
-        <div
-          style={{
-            boxShadow: "0px 4px 50px 0px #788F9C40",
-            background: "white",
-            width: 640,
-            height: 320,
-            borderRadius: "0 0 320px 320px",
-            position: "absolute",
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%,0%)",
-            opacity: 0.5,
-          }}
-        ></div>
-        <div
-          style={{
-            boxShadow: "0px 4px 50px 0px #788F9C40",
-            background: "white",
-            width: 480,
-            height: 480,
-            borderRadius: "50%",
-            position: "absolute",
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%,-50%)",
-          }}
-        >
-          <div
-            style={{
-              boxShadow: "0px 4px 50px 0px #788F9C40",
-              background: "white",
-              width: 320,
-              height: 320,
-              borderRadius: "50%",
-              position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%,-50%)",
-            }}
-          >
-            <img
-              src="./product.png"
-              style={{
-                position: "absolute",
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%,-50%)",
-              }}
-            />
-          </div>
+      <aside id="circles-cont">
+        <div className="circle shadow-circle"></div>
+        <div className="circle outer-circle"></div>
+        <div className="circle inner-circle">
+          <img src="./product.png" />
         </div>
       </aside>
     </section>
