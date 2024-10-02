@@ -1,3 +1,64 @@
+.app {
+  position: relative;
+}
+
+.hero-bg-cont {
+  height: 100vh;
+  position: absolute;
+  inset: -1rem 0 0 0;
+}
+
+.hero-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  z-index: -10;
+}
+
+.hero-curve {
+  position: absolute;
+  width: 100%;
+  height: 60%;
+  inset: auto 0 0 0;
+  z-index: -9;
+}
+
+.content {
+  margin: 1rem 2rem;
+}
+
+.highlight-bg {
+  height: 100vh;
+  position: absolute;
+  bottom: 200px;
+  left: 0;
+  width: 100%;
+}
+
+.highlight-bg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  z-index: -10;
+  opacity: 0.5;
+}
+
+.highlight-curve {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -9;
+}
+
+.footer {
+  background: #0a294dcc;
+  height: 200px;
+}
+
+/*  */
+
 #hero {
   display: flex;
   height: calc(100vh - 2rem - 64px - 38px);
